@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import DataTable from "./components/DataTable.vue";
 export default {
   name: "App",

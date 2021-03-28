@@ -285,9 +285,9 @@ export default {
   },
   methods: {
     async getAllEmployees() {
-      //const response = await fetch("http://localhost:3333/employees");
-      //const response = await fetch("https://jsonplaceholder.typicode.com/comments");
-      let res = await axios.get("http://localhost:3333/employees");
+      let res = await axios.get(
+        "http://localhost:3333/employees"
+      );
       return res.data.employees;
     },
     paginateEntries() {

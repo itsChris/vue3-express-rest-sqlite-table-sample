@@ -5,7 +5,19 @@
 - npm run backend to start the expressjs REST API
 - npm run dev to start the vue 3 frontend 
 
-questions? don't hesitate to ask.
+## seed data to database
+
+to seed the data you can use https://sqlitebrowser.org/ and employee.sql .. the employee.sql is coming from https://www.mockaroo.com/  
+
+## fetch/read data from SQLite database using REST API and postman
+
+do a GET request with URL: http://localhost:3333/employees  
+
+![Postman](https://graphics.solvia.ch/2021/03/28/2021-03-28%2009_42_45-Postman.png)
+
+Thanks to Tedir Ghazali ->  https://github.com/tedirghazali/codetube/ for his work!
+
+questions? don't hesitate to ask.  
 
 cheers, 
 

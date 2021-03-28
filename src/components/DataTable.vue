@@ -369,3 +369,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.rootcta {
+  margin: 50px;
+}
+</style>

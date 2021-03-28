@@ -287,21 +287,8 @@ export default {
     async getAllEmployees() {
       //const response = await fetch("http://localhost:3333/employees");
       //const response = await fetch("https://jsonplaceholder.typicode.com/comments");
-      let res = await axios.get(
-        "http://localhost:3333/employees"
-      );
-      let data = res;
-      let ret = {
-        id: 1, 
-        name: "name",
-        position: "",
-        office: "",
-        extension: "",
-        startdate: "",
-        salary: "",
-      };
-      console.log(`first: ${ret.length}`)
-      return ret;
+      let res = await axios.get("http://localhost:3333/employees");
+      return res.data.employees;
     },
     paginateEntries() {
       if (this.searchInput.length >= 3) {

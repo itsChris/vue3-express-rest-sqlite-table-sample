@@ -7,7 +7,8 @@
 
 ## seed data to database
 
-to seed the data you can use https://sqlitebrowser.org/ and employee.sql .. the employee.sql is coming from https://www.mockaroo.com/  
+basically seeding of the data is not needed since the employees.db already has 1000 records.  
+To seed the data you can use https://sqlitebrowser.org/ and employee.sql .. the employee.sql is coming from https://www.mockaroo.com/  
 
 ## fetch/read data from SQLite database using REST API and postman
 

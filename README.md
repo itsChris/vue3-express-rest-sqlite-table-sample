@@ -13,6 +13,8 @@ to seed the data you can use https://sqlitebrowser.org/ and employee.sql .. the 
 
 do a GET request with URL: http://localhost:3333/employees  
 
+![Postman](https://graphics.solvia.ch/2021/03/28/2021-03-28%2009_42_45-Postman.png)
+
 questions? don't hesitate to ask.  
 
 cheers, 

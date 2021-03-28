@@ -1,14 +1,17 @@
 <template>
   <div class="rootcta">
-    <DataTable  />
+    <DataTable />
   </div>
 </template>
 
 <script setup>
-import DataTable from "./components/DataTable.vue"
-
+import DataTable from "./components/DataTable.vue";
+export default {
+  name: "App",
+  components: { DataTable },
+};
 </script>
 
 <style>
-  @import './assets/alga.css'
+@import "./assets/alga.css";
 </style>
